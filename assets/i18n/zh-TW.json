@@ -1,0 +1,91 @@
+{
+  "THEME": {
+    "LIGHT": "淺色",
+    "DARK": "深色",
+    "SYSTEM": "系統"
+  },
+  "ACTION": {
+    "ADD": "新增",
+    "SEARCH": "查詢",
+    "CANCEL": "取消",
+    "CLEAR": "清除",
+    "EDIT": "更新",
+    "FILTERS": "查詢條件",
+    "HIDE_PASSWORD": "隱藏密碼",
+    "RESET": "重設",
+    "SELECT_DATE_RANGE": "選擇日期區間",
+    "SHOW_PASSWORD": "顯示密碼"
+  },
+  "MESSAGE": {
+    "NOTHING_CHANGED": "沒有異動的資料"
+  },
+  "SITEMAP": [
+    {
+      "LABEL": "儀表板"
+    },
+    {
+      "LABEL": "環球睿視",
+      "CHILDREN": [{ "LABEL": "後台帳戶管理" }, { "LABEL": "語言代碼管理" }]
+    },
+    {
+      "LABEL": "企業",
+      "CHILDREN": [
+        { "LABEL": "公司管理" },
+        { "LABEL": "國家 & 地區管理" },
+        { "LABEL": "後台帳戶管理" },
+        { "LABEL": "會員管理" },
+        { "LABEL": "會員使用紀錄" }
+      ]
+    },
+    {
+      "LABEL": "一般會員",
+      "CHILDREN": [{ "LABEL": "會員管理" }, { "LABEL": "會員使用紀錄" }]
+    },
+    {
+      "LABEL": "多語言雙向即時翻譯",
+      "CHILDREN": [
+        { "LABEL": "AI 伺服器" },
+        { "LABEL": "AI 伺服器設定" },
+        { "LABEL": "參數設定" },
+        { "LABEL": "企業用量限制" },
+        { "LABEL": "一般會員用量限制" }
+      ]
+    },
+    {
+      "LABEL": "方案管理"
+    },
+    {
+      "LABEL": "訂單管理"
+    }
+  ],
+  "SIGN_IN": {
+    "TITLE": "環球睿視管理後台",
+    "FIELD": {
+      "ACCOUNT": "帳號",
+      "PASSWORD": "密碼"
+    },
+    "ACTION": {
+      "SIGN_IN": "登入"
+    },
+    "MESSAGE": {
+      "ACCOUNT_REQUIRED": "請輸入帳號",
+      "ACCOUNT_MIN_LENGTH": "帳號最小長度為 8 個字元",
+      "PASSWORD_REQUIRED": "請輸入密碼",
+      "PASSWORD_MIN_LENGTH": "密碼最小長度為 8 個字元"
+    }
+  },
+  "ADMIN_LAYOUT": {
+    "ACTION": {
+      "SIGN_OUT": "登出"
+    }
+  },
+  "api": {
+    "success": "成功",
+    "error": "發生未預期的錯誤，請稍後再試",
+    "expiration": "登入認證已過期，請重新登入",
+    "login": {
+      "success": "登入成功",
+      "failure": "帳號或密碼有誤"
+    }
+  }
+}
